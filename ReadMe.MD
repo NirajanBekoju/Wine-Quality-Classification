@@ -1,6 +1,13 @@
 # Wine Quality Classification
 
-# Steps to run in your local machine
+
+## Data Source
+- [Wine Quality Classification](https://archive.ics.uci.edu/ml/datasets/wine+quality)
+
+## Reports
+- [Proposal](https://github.com/NirajanBekoju/Wine-Quality-Classification/blob/master/Proposal/main.pdf)
+
+## Steps to run in your local machine
 **Clone the repository**
 
 ```
@@ -39,9 +46,4 @@ npm run start
 ```
 
 
-## Data Source
-- [Wine Quality Classification](https://archive.ics.uci.edu/ml/datasets/wine+quality)
-
-## Reports
-- [Proposal](https://github.com/NirajanBekoju/Wine-Quality-Classification/blob/master/Proposal/main.pdf)
 
