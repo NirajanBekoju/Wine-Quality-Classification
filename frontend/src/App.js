@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from './components/NavBar';
 
-import Home from './routes/Home';
 import Model from './routes/Model'
 import Axios from "axios";
 
@@ -14,8 +13,7 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/model" element={<Model />} />
+        <Route exact path="/" element={<Model />} />
       </Routes>
     </>
   )

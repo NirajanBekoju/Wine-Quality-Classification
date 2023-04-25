@@ -8,8 +8,14 @@ import numpy as np
 # Create your views here.
 class ModelPrediction(APIView):
     def scaleAndTransform(self, data, scaler):
+        """log transformation and standard scaling"""
         log_data = np.log(data + 0.01)
         return scaler.transform(log_data)
+    
+    def scaleAndTransform2(self, data, scaler):
+        """min max scaling and log transformation"""
+        data = scaler.transform(data)
+        return np.log(data + 0.0001)
 
     def post(self, request, format = None):
         data = request.data
@@ -21,12 +27,16 @@ class ModelPrediction(APIView):
 
         lr2 = cache.get('lr2')
         scaler2 = cache.get('scaler2')
+        min_max_scaler = cache.get('min_max_scaler')
+        xgbClassifier = cache.get('xgbClassifier')
 
-        if lr2 == None or scaler2 == None:
+        if None in [lr2, scaler2, min_max_scaler, xgbClassifier]:
             load_model()
+            # get the cache value again
             lr2 = cache.get('lr2')
             scaler2 = cache.get('scaler2')
-
+            min_max_scaler = cache.get('min_max_scaler')
+            xgbClassifier = cache.get('xgbClassifier')
 
         fixed_acidity =  data["fixed_acidity"]
         volatile_acidity = data["volatile_acidity"]
@@ -50,9 +60,15 @@ class ModelPrediction(APIView):
 
         input_data = np.expand_dims(input_data, axis = 0)
         print(input_data)
+
+        """Logistic Regression model"""
         processed_input_data = self.scaleAndTransform(data=input_data, scaler=scaler2)
-        pred = lr2.predict_proba(processed_input_data)
-        print(pred)
-        return Response({"lr2_pred" : pred})
+        lr2_pred = lr2.predict_proba(processed_input_data)
+
+        """XGBClassifier Model"""
+        processed_input_data = self.scaleAndTransform2(data=input_data, scaler=min_max_scaler)
+        xgb_pred = xgbClassifier.predict_proba(processed_input_data)
+
+        return Response({"lr2_pred" : lr2_pred, "xgb_pred" : xgb_pred})
 
 
