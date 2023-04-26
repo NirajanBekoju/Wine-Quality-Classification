@@ -1,9 +1,9 @@
-from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .process import load_model
 from django.core.cache import cache
 import numpy as np
+from .models import WineQuality
 
 # Create your views here.
 class ModelPrediction(APIView):
@@ -63,11 +63,29 @@ class ModelPrediction(APIView):
 
         """Logistic Regression model"""
         processed_input_data = self.scaleAndTransform(data=input_data, scaler=scaler2)
-        lr2_pred = lr2.predict_proba(processed_input_data)
+        lr2_pred = lr2.predict_proba(processed_input_data).flatten()
 
         """XGBClassifier Model"""
         processed_input_data = self.scaleAndTransform2(data=input_data, scaler=min_max_scaler)
-        xgb_pred = xgbClassifier.predict_proba(processed_input_data)
+        xgb_pred = xgbClassifier.predict_proba(processed_input_data).flatten()
+
+        print(np.argmax(lr2_pred), np.argmax(xgb_pred))
+        # Save the model
+        WineQuality.objects.create(
+            fixed_acidity = fixed_acidity, 
+            volatile_acidity = volatile_acidity, 
+            citric_acid = citric_acid, 
+            residual_sugar = residual_sugar, 
+            chlorides = chlorides, 
+            free_sulfur_dioxide = free_sulfur_dioxide, 
+            total_sulfur_dioxide = total_sulfur_dioxide, 
+            density = density, 
+            pH = pH, 
+            sulphates = sulphates, 
+            alcohol = alcohol, 
+            lr_pred = np.argmax(lr2_pred),
+            xgb_pred = np.argmax(xgb_pred),
+            )
 
         return Response({"lr2_pred" : lr2_pred, "xgb_pred" : xgb_pred})
 
