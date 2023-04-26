@@ -166,14 +166,14 @@ const Model = () => {
                     {"lr2_pred" in predictionData ?
                         <div className='mt-4'>
                             Logistic Regression
-                            {showPrediction(predictionData["lr2_pred"][0])}
+                            {showPrediction(predictionData["lr2_pred"])}
                         </div> : ""}
                 </div>
                 <div className='col-md-6'>
                     {"xgb_pred" in predictionData ?
                         <div className='mt-4'>
                             XGBClassifier
-                            {showPrediction(predictionData["xgb_pred"][0])}
+                            {showPrediction(predictionData["xgb_pred"])}
                         </div> : ""}
                 </div>
             </div>
