@@ -1,0 +1,90 @@
+\chapter{Introduction}
+\section{Problem Statement}
+The dataset is related to red variants of the Portuguese "Vinho Verde" wine.The dataset describes the amount of various chemicals present in wine and their effect on it's quality. The datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones).Task is to predict the quality of wine using the given data.
+
+A simple yet challenging project, to anticipate the quality of wine.
+
+The complexity arises due to the fact that the dataset has fewer samples, \& is highly imbalanced.
+
+\textbf{Data Source} : \href{https://archive.ics.uci.edu/ml/datasets/wine+quality}{https://archive.ics.uci.edu/ml/datasets/wine+quality}
+
+\section{About Dataset}
+The dataset contains the following columns:
+\begin{enumerate}
+    \item fixed acidity
+    \item volatile acidity
+    \item citric acid
+    \item residual sugar
+    \item chlorides
+    \item free sulfur dioxide
+    \item total sulfur dioxide
+    \item density
+    \item pH
+    \item sulphates
+    \item alcohol
+    \item quality (Targe Variable) : ranges from 0 to 10
+\end{enumerate}
+
+The data information is as follow:
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.7]{data_info.png}
+    \caption{Data Information}
+    \label{fig:Data Information}
+\end{figure}
+
+
+
+
+
+\section{Dataset Statistics}
+The count plot of the whole dataset on the basis of quality of wine is shown below.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.7]{data_statistics/whole_dataset_countplot.png}
+    \caption{Quality Count plot}
+    \label{fig:Quality Count plot}
+\end{figure}
+
+We can see from above countplot, that the data is highly imbalanced and quality of wine(0, 1, 2, 9, 10) are not present in the dataset.
+
+In order to deal with this imbalanced, at first we are going to merge the quality labels (3 and 4) and (7 and 8) as shown below.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.7]{data_statistics/wineQualityTransformCode.png}
+    \caption{Code for transformation of quality attribute}
+    \label{fig:Code for transformation of quality attribute}
+\end{figure}
+
+The resulting count plot is as shown below:
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.7]{data_statistics/transformed_whole_dataset_countplot.png}
+    \caption{Quality Count plot after transformation}
+    \label{fig:Quality Count plot after transformation}
+\end{figure}
+
+\subsection{Train, validation and test dataset}
+We are going to use 80\%, and 20\% of the dataset as training, validation and test data. The countplot are as shown below:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.5]{data_statistics/train_dataset.png}
+    \caption{Train Quality Count plot after transformation}
+    \label{fig:Train Quality Count plot after transformation}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.5]{data_statistics/test_dataset.png}
+    \caption{Test Quality Count plot after transformation}
+    \label{fig:Test Quality Count plot after transformation}
+\end{figure}
+
+\section{Expected Outcome}
+We expect the output to be the list of probabilites of belonging to a class[0, 1, 2 or 3]. Among these, the class with higher probability is out predicted class.
+
