@@ -6,6 +6,8 @@
 
 ## Reports
 - [Proposal](https://github.com/NirajanBekoju/Wine-Quality-Classification/blob/master/Proposal/main.pdf)
+- [Proposal Presentation](https://github.com/NirajanBekoju/Wine-Quality-Classification/blob/master/proposal_presentation.pdf)
+- [Final Report](https://github.com/NirajanBekoju/Wine-Quality-Classification/blob/master/Report/main.pdf)
 
 ## Steps to run in your local machine
 **Clone the repository**
