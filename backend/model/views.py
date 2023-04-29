@@ -1,21 +1,13 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .process import load_model
+from .process import predict
 from django.core.cache import cache
 import numpy as np
 from .models import WineQuality
 
 # Create your views here.
 class ModelPrediction(APIView):
-    def scaleAndTransform(self, data, scaler):
-        """log transformation and standard scaling"""
-        log_data = np.log(data + 0.01)
-        return scaler.transform(log_data)
     
-    def scaleAndTransform2(self, data, scaler):
-        """min max scaling and log transformation"""
-        data = scaler.transform(data)
-        return np.log(data + 0.0001)
 
     def post(self, request, format = None):
         data = request.data
@@ -24,19 +16,6 @@ class ModelPrediction(APIView):
         for key in required_keys:
             if key not in data:
                 return Response({"errror" : f"{key} is missing"})
-
-        lr2 = cache.get('lr2')
-        scaler2 = cache.get('scaler2')
-        min_max_scaler = cache.get('min_max_scaler')
-        xgbClassifier = cache.get('xgbClassifier')
-
-        if None in [lr2, scaler2, min_max_scaler, xgbClassifier]:
-            load_model()
-            # get the cache value again
-            lr2 = cache.get('lr2')
-            scaler2 = cache.get('scaler2')
-            min_max_scaler = cache.get('min_max_scaler')
-            xgbClassifier = cache.get('xgbClassifier')
 
         fixed_acidity =  data["fixed_acidity"]
         volatile_acidity = data["volatile_acidity"]
@@ -58,19 +37,9 @@ class ModelPrediction(APIView):
         except ValueError as e:
             return Response({"error":"Not convertible to float"})
 
-        input_data = np.expand_dims(input_data, axis = 0)
-        print(input_data)
+        result, prediction = predict(input_data)
+        lr_pred, xgb_pred, rf_pred, svm_pred = prediction
 
-        """Logistic Regression model"""
-        processed_input_data = self.scaleAndTransform(data=input_data, scaler=scaler2)
-        lr2_pred = lr2.predict_proba(processed_input_data).flatten()
-
-        """XGBClassifier Model"""
-        processed_input_data = self.scaleAndTransform2(data=input_data, scaler=min_max_scaler)
-        xgb_pred = xgbClassifier.predict_proba(processed_input_data).flatten()
-
-        print(np.argmax(lr2_pred), np.argmax(xgb_pred))
-        # Save the model
         WineQuality.objects.create(
             fixed_acidity = fixed_acidity, 
             volatile_acidity = volatile_acidity, 
@@ -83,10 +52,12 @@ class ModelPrediction(APIView):
             pH = pH, 
             sulphates = sulphates, 
             alcohol = alcohol, 
-            lr_pred = np.argmax(lr2_pred),
-            xgb_pred = np.argmax(xgb_pred),
+            lr_pred = lr_pred,
+            xgb_pred = xgb_pred,
+            rf_pred = rf_pred, 
+            svm_pred = svm_pred
             )
 
-        return Response({"lr2_pred" : lr2_pred, "xgb_pred" : xgb_pred})
+        return Response(result)
 
 

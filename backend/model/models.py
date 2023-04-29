@@ -20,6 +20,8 @@ class WineQuality(models.Model):
     quality = models.IntegerField(blank=True, null=True) # actual value
     lr_pred = models.IntegerField(blank=True, null=True) # prediction by logistic regression
     xgb_pred = models.IntegerField(blank=True, null=True) # prediction by xgboost classifier
+    rf_pred = models.IntegerField(blank=True, null=True) # prediction by xgboost classifier
+    svm_pred = models.IntegerField(blank=True, null=True) # prediction by xgboost classifier
     
 
     
