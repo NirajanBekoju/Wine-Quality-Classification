@@ -131,7 +131,7 @@ const Model = () => {
                         </div>
 
                         <div className='row pt-4'>
-                            
+
                             <div className='col-md-2'>
                                 <label htmlFor='total_sulfur_dioxide'>Total Sulfur Dioxide</label>
                                 <input type='number' className='form-control' placeholder='total_sulfur_dioxide' name='total_sulfur_dioxide' value={total_sulfur_dioxide} onChange={(e) => handleChange(e)} />
@@ -140,7 +140,7 @@ const Model = () => {
                                 <label htmlFor='density'>Density</label>
                                 <input type='number' className='form-control' placeholder='density' name='density' value={density} onChange={(e) => handleChange(e)} />
                             </div>
-                
+
                             <div className='col-md-2'>
                                 <label htmlFor='pH'>pH</label>
                                 <input type='number' className='form-control' placeholder='pH' name='pH' value={pH} onChange={(e) => handleChange(e)} />
@@ -168,6 +168,11 @@ const Model = () => {
                             Logistic Regression
                             {showPrediction(predictionData["lr2_pred"])}
                         </div> : ""}
+                    {"rf_pred" in predictionData ?
+                        <div className='mt-4'>
+                            Random Forest
+                            {showPrediction(predictionData["rf_pred"])}
+                        </div> : ""}
                 </div>
                 <div className='col-md-6'>
                     {"xgb_pred" in predictionData ?
@@ -175,6 +180,12 @@ const Model = () => {
                             XGBClassifier
                             {showPrediction(predictionData["xgb_pred"])}
                         </div> : ""}
+                    {"svm_pred" in predictionData ?
+                        <div className='mt-4'>
+                            SVM
+                            {showPrediction(predictionData["svm_pred"])}
+                        </div> : ""}
+
                 </div>
             </div>
         </div>

@@ -61,5 +61,5 @@ def predict(data):
     # Robust scaling => random forest and svc prediction
     robust_scaled_data = robustScaleAndTransform(data, scaler = robust_scaler)
     result["rf_pred"] = best_rf_model.predict_proba(robust_scaled_data).flatten()
-    result["svc_pred"] = best_svc_model.predict_proba(robust_scaled_data).flatten()
-    return result, [np.argmax(result["lr2_pred"]), np.argmax(result["xgb_pred"]), np.argmax(result["rf_pred"]), np.argmax(result["svc_pred"])]
+    result["svm_pred"] = best_svc_model.predict_proba(robust_scaled_data).flatten()
+    return result, [np.argmax(result["lr2_pred"]), np.argmax(result["xgb_pred"]), np.argmax(result["rf_pred"]), np.argmax(result["svm_pred"])]
