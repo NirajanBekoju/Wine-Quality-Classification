@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  30 APR 2023 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  30 APR 2023 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -912,18 +912,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7CB69361C82DB7B1ED9221BFF877C36B;1567.
  ) 
 Here is how much of TeX's memory you used:
- 19369 strings out of 481239
- 372396 string characters out of 5920377
- 620008 words of memory out of 5000000
- 34059 multiletter control sequences out of 15000+600000
+ 19367 strings out of 481239
+ 372339 string characters out of 5920377
+ 619961 words of memory out of 5000000
+ 34058 multiletter control sequences out of 15000+600000
  538519 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,1024b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (30 pages, 1462203 bytes).
+Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (30 pages, 1461675 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 113 named destinations out of 1000 (max. 500000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 112 named destinations out of 1000 (max. 500000)
  413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
