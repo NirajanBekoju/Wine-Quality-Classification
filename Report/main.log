@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  30 APR 2023 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  30 APR 2023 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -920,7 +920,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,1024b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (30 pages, 1461675 bytes).
+Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (30 pages, 1461732 bytes).
 PDF statistics:
  486 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams
