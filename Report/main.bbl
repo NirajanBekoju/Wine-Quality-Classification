@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{cortez2009modeling}
+P.~Cortez, A.~Cerdeira, F.~Almeida, T.~Matos, and J.~Reis, ``Modeling wine
+  preferences by data mining from physicochemical properties,'' {\em Decision
+  support systems}, vol.~47, no.~4, pp.~547--553, 2009.
+
+\bibitem{zeng2023classification}
+M.~Zeng, ``The classification of red wine quality based on machine learning
+  techniques,'' in {\em Second International Conference on Statistics, Applied
+  Mathematics, and Computing Science (CSAMCS 2022)}, vol.~12597, pp.~954--959,
+  SPIE, 2023.
+
+\bibitem{bischoff2021technological}
+V.~Bischoff, K.~Farias, J.~P. Menzen, and G.~Pessin, ``Technological support
+  for detection and prediction of plant diseases: A systematic mapping study,''
+  {\em Computers and Electronics in Agriculture}, vol.~181, p.~105922, 2021.
+
+\bibitem{cardoso2023could}
+V.~Cardoso~Schwindt, M.~M. Coletto, M.~F. Diaz, and I.~Ponzoni, ``Could qsor
+  modelling and machine learning techniques be useful to predict wine aroma?,''
+  {\em Food and Bioprocess Technology}, vol.~16, no.~1, pp.~24--42, 2023.
+
+\end{thebibliography}

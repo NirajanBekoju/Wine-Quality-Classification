@@ -411,6 +411,9 @@ INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classific
 OUTPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/conclusion.aux
 INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/conclusion.tex
 INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/conclusion.tex
+INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.bbl
+INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.bbl
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.aux
 INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.aux
 INPUT /media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.aux
@@ -432,3 +435,4 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb

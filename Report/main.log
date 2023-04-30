@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  30 APR 2023 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  30 APR 2023 13:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -899,28 +899,31 @@ Chapter 6.
 
 
 
+] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.bbl) [30
+
+
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.aux (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/abstract.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/introduction.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/project_management.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/data_preprocessing.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/model.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7CB69361C82DB7B1ED9221BFF877C36B;1567.
  ) 
 Here is how much of TeX's memory you used:
- 19353 strings out of 481239
- 371965 string characters out of 5920377
- 619839 words of memory out of 5000000
- 34053 multiletter control sequences out of 15000+600000
- 538172 words of font info for 44 fonts, out of 8000000 for 9000
+ 19369 strings out of 481239
+ 372396 string characters out of 5920377
+ 620008 words of memory out of 5000000
+ 34059 multiletter control sequences out of 15000+600000
+ 538519 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,1024b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (29 pages, 1446232 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (30 pages, 1462203 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 354 compressed objects within 4 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 113 named destinations out of 1000 (max. 500000)
  413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
