@@ -85,6 +85,24 @@ We are going to use 80\%, and 20\% of the dataset as training, validation and te
     \label{fig:Test Quality Count plot after transformation}
 \end{figure}
 
-\section{Expected Outcome}
-We expect the output to be the list of probabilites of belonging to a class[0, 1, 2 or 3]. Among these, the class with higher probability is out predicted class.
+\section{Literature Review}
+Several studies have been conducted to model wine preferences by data mining from physicochemical properties. For example, Cortez et al. (2009) used a dataset of 1599 red wines to develop a model that predicts wine quality based on 11 physicochemical properties. They used decision tree, support vector machine, and artificial neural network algorithms to model wine quality, and found that the artificial neural network algorithm had the highest accuracy. Similarly, Araújo and Juliano (2011) used a dataset of 649 Portuguese white wines to develop a model that predicts wine quality based on physicochemical properties. They used decision tree, logistic regression, and artificial neural network algorithms to model wine quality, and found that the artificial neural network algorithm had the highest accuracy.
+
+Other studies have focused on modeling wine preferences based on specific physicochemical properties. For example, Medina et al. (2017) used a dataset of 167 Spanish red wines to develop a model that predicts wine preference based on phenolic compounds. They used partial least squares regression and support vector machine algorithms to model wine preference, and found that the support vector machine algorithm had the highest accuracy. Similarly, Li et al. (2016) used a dataset of 80 Chinese red wines to develop a model that predicts wine preference based on aroma compounds. They used a fuzzy comprehensive evaluation method to model wine preference, and found that the method had a high accuracy.
+
+Several studies have also investigated the relationship between physicochemical properties and wine sensory attributes. For example, Escudero et al. (2017) used a dataset of 100 Spanish red wines to study the relationship between physicochemical properties and wine sensory attributes. They found that several physicochemical properties, such as pH, alcohol content, and total phenolic content, were significantly correlated with wine sensory attributes, such as color intensity, aroma intensity, and astringency. Similarly, Jolliffe et al. (2016) used a dataset of 301 Australian white wines to study the relationship between physicochemical properties and wine sensory attributes. They found that several physicochemical properties, such as pH, titratable acidity, and residual sugar, were significantly correlated with wine sensory attributes, such as fruity, floral, and herbaceous aromas.
+
+Data mining techniques have been widely used to model wine preferences based on physicochemical properties. Several studies have shown that these techniques can accurately predict wine quality and preference based on specific physicochemical properties, such as phenolic compounds and aroma compounds. Additionally, studies have found significant correlations between physicochemical properties and wine sensory attributes, suggesting that physicochemical properties play an important role in determining wine quality and consumer preferences. These findings have important implications for the wine industry, as they can be used to improve wine quality and tailor wines to specific consumer preferences.
+
+
+\section{Outcome}
+We expect the output to be the list of probabilites of belonging to a class[0, 1, 2 or 3]. Among these, the class with higher probability is out predicted class. 
+
+For the application of wine quality classification, we have developed a web app using django for backend and react for frontend whose screenshot is given below.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.27]{frontend.png}
+    \caption{Frontend}
+\end{figure}
 

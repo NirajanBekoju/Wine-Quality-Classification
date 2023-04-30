@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  27 APR 2023 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  30 APR 2023 11:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,29 +454,52 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip57
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen274
+\captionmargin@=\dimen275
+\captionwidth=\dimen276
+\caption@tempdima=\dimen277
+\caption@indent=\dimen278
+\caption@parindent=\dimen279
+\caption@hangindent=\dimen280
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count299
+\c@subtable=\count300
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count297
+\l__kernel_color_stack_int=\count301
 \l__pdf_internal_box=\box61
-) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.aux (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/abstract.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/introduction.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/project_management.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/data_preprocessing.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/model.aux))
+) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.aux (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/abstract.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/introduction.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/project_management.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/data_preprocessing.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/model.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -515,16 +538,16 @@ LaTeX Font Info:    ... okay on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen274
+\scratchcounter=\count302
+\scratchdimen=\dimen281
 \scratchbox=\box62
-\nofMPsegments=\count299
-\nofMParguments=\count300
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen275
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen282
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks37
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -533,7 +556,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 25.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -541,15 +564,17 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count304
+\c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
  (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.out) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 \openout2 = `title.aux'.
 
  (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.tex [1
@@ -561,7 +586,17 @@ LaTeX Info: Redefining \nameref on input line 24.
 
  [2
 
-] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.lof)
+] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.lof
+Overfull \hbox (19.57468pt too wide) in paragraph at lines 24--24
+ [][] [][]\OT1/cmr/m/n/12 Confusion ma-trix and clas-si-fi-ca-tion re-port for lo-gis-tic re-gres-sion model with multi[]class 
+ []
+
+
+Overfull \hbox (19.57468pt too wide) in paragraph at lines 25--25
+ [][] [][]\OT1/cmr/m/n/12 Confusion ma-trix and clas-si-fi-ca-tion re-port for lo-gis-tic re-gres-sion model with multi[]class 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -595,70 +630,76 @@ Chapter 2.
 
 
 ]
-<image/data_info.png, id=178, 508.90125pt x 347.2975pt>
+<image/data_info.png, id=252, 508.90125pt x 347.2975pt>
 File: image/data_info.png Graphic file (type png)
 <use image/data_info.png>
 Package pdftex.def Info: image/data_info.png  used on input line 31.
 (pdftex.def)             Requested size: 356.22844pt x 243.10658pt.
-<image/data_statistics/whole_dataset_countplot.png, id=180, 663.47874pt x 470.75874pt>
+<image/data_statistics/whole_dataset_countplot.png, id=254, 663.47874pt x 470.75874pt>
 File: image/data_statistics/whole_dataset_countplot.png Graphic file (type png)
 <use image/data_statistics/whole_dataset_countplot.png>
 Package pdftex.def Info: image/data_statistics/whole_dataset_countplot.png  used on input line 45.
 (pdftex.def)             Requested size: 464.43195pt x 329.52887pt.
  [7 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_info.png>]
-<image/data_statistics/wineQualityTransformCode.png, id=189, 654.445pt x 132.495pt>
+<image/data_statistics/wineQualityTransformCode.png, id=263, 654.445pt x 132.495pt>
 File: image/data_statistics/wineQualityTransformCode.png Graphic file (type png)
 <use image/data_statistics/wineQualityTransformCode.png>
 Package pdftex.def Info: image/data_statistics/wineQualityTransformCode.png  used on input line 57.
 (pdftex.def)             Requested size: 458.10838pt x 92.74585pt.
-<image/data_statistics/transformed_whole_dataset_countplot.png, id=190, 680.5425pt x 493.845pt>
+<image/data_statistics/transformed_whole_dataset_countplot.png, id=264, 680.5425pt x 493.845pt>
 File: image/data_statistics/transformed_whole_dataset_countplot.png Graphic file (type png)
 <use image/data_statistics/transformed_whole_dataset_countplot.png>
 Package pdftex.def Info: image/data_statistics/transformed_whole_dataset_countplot.png  used on input line 65.
 (pdftex.def)             Requested size: 476.3765pt x 345.68913pt.
  [8 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_statistics/whole_dataset_countplot.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_statistics/wineQualityTransformCode.png>]
-<image/data_statistics/train_dataset.png, id=197, 847.165pt x 439.6425pt>
+<image/data_statistics/train_dataset.png, id=271, 847.165pt x 439.6425pt>
 File: image/data_statistics/train_dataset.png Graphic file (type png)
 <use image/data_statistics/train_dataset.png>
 Package pdftex.def Info: image/data_statistics/train_dataset.png  used on input line 75.
 (pdftex.def)             Requested size: 423.58145pt x 219.82071pt.
  [9 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_statistics/transformed_whole_dataset_countplot.png>]
-<image/data_statistics/test_dataset.png, id=203, 846.16125pt x 445.665pt>
+<image/data_statistics/test_dataset.png, id=277, 846.16125pt x 445.665pt>
 File: image/data_statistics/test_dataset.png Graphic file (type png)
 <use image/data_statistics/test_dataset.png>
 Package pdftex.def Info: image/data_statistics/test_dataset.png  used on input line 83.
 (pdftex.def)             Requested size: 423.07959pt x 222.83195pt.
-) [10 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_statistics/train_dataset.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_statistics/test_dataset.png>]
+ [10 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_statistics/train_dataset.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/data_statistics/test_dataset.png>]
+<image/frontend.png, id=284, 1734.48pt x 973.6375pt>
+File: image/frontend.png Graphic file (type png)
+<use image/frontend.png>
+Package pdftex.def Info: image/frontend.png  used on input line 105.
+(pdftex.def)             Requested size: 468.31587pt x 262.88564pt.
+ [11]) [12 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/frontend.png>]
 \openout2 = `chapter/project_management.aux'.
 
  (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/project_management.tex
 Chapter 3.
-<image/project_management/agile.jpg, id=210, 301.125pt x 281.05pt>
+<image/project_management/agile.jpg, id=294, 301.125pt x 281.05pt>
 File: image/project_management/agile.jpg Graphic file (type jpg)
 <use image/project_management/agile.jpg>
 Package pdftex.def Info: image/project_management/agile.jpg  used on input line 7.
 (pdftex.def)             Requested size: 271.00998pt x 252.94264pt.
-<image/project_management/trello.png, id=211, 1473.505pt x 790.955pt>
+<image/project_management/trello.png, id=295, 1473.505pt x 790.955pt>
 File: image/project_management/trello.png Graphic file (type png)
 <use image/project_management/trello.png>
 Package pdftex.def Info: image/project_management/trello.png  used on input line 16.
 (pdftex.def)             Requested size: 486.25816pt x 261.01596pt.
-[11
+[13
 
 
 
  </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/project_management/agile.jpg>]
-<image/project_management/discord.png, id=216, 1537.745pt x 906.38625pt>
+<image/project_management/discord.png, id=301, 1537.745pt x 906.38625pt>
 File: image/project_management/discord.png Graphic file (type png)
 <use image/project_management/discord.png>
 Package pdftex.def Info: image/project_management/discord.png  used on input line 26.
 (pdftex.def)             Requested size: 461.32706pt x 271.91797pt.
-<image/project_management/excel.png, id=217, 1231.60126pt x 985.6825pt>
+<image/project_management/excel.png, id=302, 1231.60126pt x 985.6825pt>
 File: image/project_management/excel.png Graphic file (type png)
 <use image/project_management/excel.png>
 Package pdftex.def Info: image/project_management/excel.png  used on input line 35.
 (pdftex.def)             Requested size: 480.32256pt x 384.41463pt.
- [12 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/project_management/trello.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/project_management/discord.png>]) [13 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/project_management/excel.png>]
+ [14 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/project_management/trello.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/project_management/discord.png>]) [15 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/project_management/excel.png>]
 \openout2 = `chapter/data_preprocessing.aux'.
 
  (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/data_preprocessing.tex
@@ -668,80 +709,218 @@ Overfull \hbox (17.94423pt too wide) in paragraph at lines 9--35
  [] 
  []
 
-[14
+[16
 
 
 
 ]
-<image/preprocessing/corr_heat_map.png, id=234, 883.3pt x 778.91pt>
+<image/preprocessing/corr_heat_map.png, id=319, 883.3pt x 778.91pt>
 File: image/preprocessing/corr_heat_map.png Graphic file (type png)
 <use image/preprocessing/corr_heat_map.png>
 Package pdftex.def Info: image/preprocessing/corr_heat_map.png  used on input line 77.
 (pdftex.def)             Requested size: 441.64893pt x 389.45406pt.
-<image/preprocessing/original_data_untransformed_distribution.png, id=235, 1006.76125pt x 674.52pt>
+<image/preprocessing/original_data_untransformed_distribution.png, id=320, 1006.76125pt x 674.52pt>
 File: image/preprocessing/original_data_untransformed_distribution.png Graphic file (type png)
 <use image/preprocessing/original_data_untransformed_distribution.png>
 Package pdftex.def Info: image/preprocessing/original_data_untransformed_distribution.png  used on input line 84.
 (pdftex.def)             Requested size: 402.69736pt x 269.80322pt.
- [15 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/corr_heat_map.png>]
-<image/preprocessing/boxplot_whole_data.png, id=241, 963.6pt x 678.535pt>
+ [17 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/corr_heat_map.png>]
+<image/preprocessing/boxplot_whole_data.png, id=326, 963.6pt x 678.535pt>
 File: image/preprocessing/boxplot_whole_data.png Graphic file (type png)
 <use image/preprocessing/boxplot_whole_data.png>
 Package pdftex.def Info: image/preprocessing/boxplot_whole_data.png  used on input line 91.
 (pdftex.def)             Requested size: 385.43317pt x 271.40918pt.
-<image/preprocessing/min_max_scaled/dist_log_transformed_data.png, id=242, 999.735pt x 675.52374pt>
+ [18 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/original_data_untransformed_distribution.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/boxplot_whole_data.png>]
+<image/preprocessing/min_max_scaled/dist_log_transformed_data.png, id=333, 999.735pt x 675.52374pt>
 File: image/preprocessing/min_max_scaled/dist_log_transformed_data.png Graphic file (type png)
 <use image/preprocessing/min_max_scaled/dist_log_transformed_data.png>
 Package pdftex.def Info: image/preprocessing/min_max_scaled/dist_log_transformed_data.png  used on input line 101.
-(pdftex.def)             Requested size: 399.88692pt x 270.20471pt.
- [16 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/original_data_untransformed_distribution.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/boxplot_whole_data.png>]
-<image/preprocessing/min_max_scaled/dist_boxcox_transformed.png, id=249, 999.735pt x 676.5275pt>
+(pdftex.def)             Requested size: 349.91249pt x 236.43684pt.
+<image/preprocessing/min_max_scaled/dist_boxcox_transformed.png, id=334, 999.735pt x 676.5275pt>
 File: image/preprocessing/min_max_scaled/dist_boxcox_transformed.png Graphic file (type png)
 <use image/preprocessing/min_max_scaled/dist_boxcox_transformed.png>
 Package pdftex.def Info: image/preprocessing/min_max_scaled/dist_boxcox_transformed.png  used on input line 108.
-(pdftex.def)             Requested size: 399.88692pt x 270.6062pt.
-<image/preprocessing/min_max_scaled/boxplot_log_transformed.png, id=250, 964.60374pt x 677.53125pt>
+(pdftex.def)             Requested size: 349.91249pt x 236.78816pt.
+<image/preprocessing/min_max_scaled/boxplot_log_transformed.png, id=335, 964.60374pt x 677.53125pt>
 File: image/preprocessing/min_max_scaled/boxplot_log_transformed.png Graphic file (type png)
 <use image/preprocessing/min_max_scaled/boxplot_log_transformed.png>
 Package pdftex.def Info: image/preprocessing/min_max_scaled/boxplot_log_transformed.png  used on input line 115.
 (pdftex.def)             Requested size: 385.83466pt x 271.00769pt.
- [17 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/dist_log_transformed_data.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/dist_boxcox_transformed.png>]
-<image/preprocessing/min_max_scaled/boxplot_boxcox.png, id=257, 967.615pt x 683.55376pt>
+ [19 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/dist_log_transformed_data.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/dist_boxcox_transformed.png>]
+<image/preprocessing/min_max_scaled/boxplot_boxcox.png, id=343, 967.615pt x 683.55376pt>
 File: image/preprocessing/min_max_scaled/boxplot_boxcox.png Graphic file (type png)
 <use image/preprocessing/min_max_scaled/boxplot_boxcox.png>
 Package pdftex.def Info: image/preprocessing/min_max_scaled/boxplot_boxcox.png  used on input line 122.
 (pdftex.def)             Requested size: 387.03915pt x 273.41666pt.
-) [18 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/boxplot_log_transformed.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/boxplot_boxcox.png>]
+) [20 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/boxplot_log_transformed.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/preprocessing/min_max_scaled/boxplot_boxcox.png>]
 \openout2 = `chapter/model.aux'.
 
  (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/model.tex
 Chapter 5.
-) [19
+<image/model_evaluation/logistic/cm_logistic_v3.png, id=350, 546.04pt x 452.69125pt>
+File: image/model_evaluation/logistic/cm_logistic_v3.png Graphic file (type png)
+<use image/model_evaluation/logistic/cm_logistic_v3.png>
+Package pdftex.def Info: image/model_evaluation/logistic/cm_logistic_v3.png  used on input line 33.
+(pdftex.def)             Requested size: 196.50536pt x 162.91345pt.
+<image/model_evaluation/logistic/cr_logistic_v3.png, id=351, 487.8225pt x 203.76125pt>
+File: image/model_evaluation/logistic/cr_logistic_v3.png Graphic file (type png)
+<use image/model_evaluation/logistic/cr_logistic_v3.png>
+Package pdftex.def Info: image/model_evaluation/logistic/cr_logistic_v3.png  used on input line 38.
+(pdftex.def)             Requested size: 196.50536pt x 82.07823pt.
+[21
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
- (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.aux (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/abstract.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/introduction.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/project_management.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/data_preprocessing.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/model.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+<image/model_evaluation/logistic/cm_logistic_v2.png, id=356, 573.14125pt x 448.67625pt>
+File: image/model_evaluation/logistic/cm_logistic_v2.png Graphic file (type png)
+<use image/model_evaluation/logistic/cm_logistic_v2.png>
+Package pdftex.def Info: image/model_evaluation/logistic/cm_logistic_v2.png  used on input line 47.
+(pdftex.def)             Requested size: 196.50536pt x 153.83499pt.
+<image/model_evaluation/logistic/cr_logistic_v2.png, id=357, 473.77pt x 200.75pt>
+File: image/model_evaluation/logistic/cr_logistic_v2.png Graphic file (type png)
+<use image/model_evaluation/logistic/cr_logistic_v2.png>
+Package pdftex.def Info: image/model_evaluation/logistic/cr_logistic_v2.png  used on input line 52.
+(pdftex.def)             Requested size: 196.50536pt x 83.26373pt.
+File: image/model_evaluation/logistic/cm_logistic_v2.png Graphic file (type png)
+<use image/model_evaluation/logistic/cm_logistic_v2.png>
+Package pdftex.def Info: image/model_evaluation/logistic/cm_logistic_v2.png  used on input line 64.
+(pdftex.def)             Requested size: 245.63545pt x 192.29716pt.
+File: image/model_evaluation/logistic/cr_logistic_v2.png Graphic file (type png)
+<use image/model_evaluation/logistic/cr_logistic_v2.png>
+Package pdftex.def Info: image/model_evaluation/logistic/cr_logistic_v2.png  used on input line 69.
+(pdftex.def)             Requested size: 196.50536pt x 83.26373pt.
+ [22 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/logistic/cm_logistic_v3.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/logistic/cr_logistic_v3.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/logistic/cm_logistic_v2.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/logistic/cr_logistic_v2.png>]
+<image/model_evaluation/boosting/cm_xgb_v1.png, id=367, 532.99126pt x 444.66125pt>
+File: image/model_evaluation/boosting/cm_xgb_v1.png Graphic file (type png)
+<use image/model_evaluation/boosting/cm_xgb_v1.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cm_xgb_v1.png  used on input line 107.
+(pdftex.def)             Requested size: 245.63545pt x 204.9266pt.
+<image/model_evaluation/boosting/cr_xgb_v1.png, id=368, 495.8525pt x 207.77625pt>
+File: image/model_evaluation/boosting/cr_xgb_v1.png Graphic file (type png)
+<use image/model_evaluation/boosting/cr_xgb_v1.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cr_xgb_v1.png  used on input line 112.
+(pdftex.def)             Requested size: 196.50536pt x 82.34178pt.
+ [23]
+<image/model_evaluation/boosting/cm_xgb_v2.png, id=373, 537.00626pt x 435.6275pt>
+File: image/model_evaluation/boosting/cm_xgb_v2.png Graphic file (type png)
+<use image/model_evaluation/boosting/cm_xgb_v2.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cm_xgb_v2.png  used on input line 121.
+(pdftex.def)             Requested size: 245.63545pt x 199.26106pt.
+<image/model_evaluation/boosting/cr_xgb_v2.png, id=374, 473.77pt x 189.70876pt>
+File: image/model_evaluation/boosting/cr_xgb_v2.png Graphic file (type png)
+<use image/model_evaluation/boosting/cr_xgb_v2.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cr_xgb_v2.png  used on input line 126.
+(pdftex.def)             Requested size: 196.50536pt x 78.68423pt.
+<image/model_evaluation/boosting/cm_ada.png, id=375, 541.02126pt x 441.65pt>
+File: image/model_evaluation/boosting/cm_ada.png Graphic file (type png)
+<use image/model_evaluation/boosting/cm_ada.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cm_ada.png  used on input line 156.
+(pdftex.def)             Requested size: 245.63545pt x 200.51976pt.
+<image/model_evaluation/boosting/cr_ada.png, id=376, 479.7925pt x 205.76875pt>
+File: image/model_evaluation/boosting/cr_ada.png Graphic file (type png)
+<use image/model_evaluation/boosting/cr_ada.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cr_ada.png  used on input line 161.
+(pdftex.def)             Requested size: 196.50536pt x 84.27467pt.
+ [24 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cm_xgb_v1.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cr_xgb_v1.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cm_xgb_v2.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cr_xgb_v2.png>]
+<image/model_evaluation/boosting/cm_gradient.png, id=385, 528.97626pt x 436.63126pt>
+File: image/model_evaluation/boosting/cm_gradient.png Graphic file (type png)
+<use image/model_evaluation/boosting/cm_gradient.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cm_gradient.png  used on input line 170.
+(pdftex.def)             Requested size: 245.63545pt x 202.7516pt.
+<image/model_evaluation/boosting/cr_gradient.png, id=386, 463.7325pt x 191.71625pt>
+File: image/model_evaluation/boosting/cr_gradient.png Graphic file (type png)
+<use image/model_evaluation/boosting/cr_gradient.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cr_gradient.png  used on input line 175.
+(pdftex.def)             Requested size: 196.50536pt x 81.2399pt.
+<image/model_evaluation/boosting/cm_lgbm.png, id=387, 522.95375pt x 445.665pt>
+File: image/model_evaluation/boosting/cm_lgbm.png Graphic file (type png)
+<use image/model_evaluation/boosting/cm_lgbm.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cm_lgbm.png  used on input line 184.
+(pdftex.def)             Requested size: 245.63545pt x 209.33337pt.
+<image/model_evaluation/boosting/cr_lgbm.png, id=388, 468.75125pt x 196.735pt>
+File: image/model_evaluation/boosting/cr_lgbm.png Graphic file (type png)
+<use image/model_evaluation/boosting/cr_lgbm.png>
+Package pdftex.def Info: image/model_evaluation/boosting/cr_lgbm.png  used on input line 189.
+(pdftex.def)             Requested size: 196.50536pt x 82.47202pt.
+ [25 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cm_ada.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cr_ada.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cm_gradient.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cr_gradient.png>]
+Overfull \hbox (15.04797pt too wide) in paragraph at lines 209--218
+ [] 
+ []
+
+<image/model_evaluation/rf_svm/cm_rf_v1.png, id=398, 485.815pt x 399.4925pt>
+File: image/model_evaluation/rf_svm/cm_rf_v1.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cm_rf_v1.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cm_rf_v1.png  used on input line 225.
+(pdftex.def)             Requested size: 245.63545pt x 201.98898pt.
+<image/model_evaluation/rf_svm/cr_rf_v1.png, id=399, 420.57124pt x 172.645pt>
+File: image/model_evaluation/rf_svm/cr_rf_v1.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cr_rf_v1.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cr_rf_v1.png  used on input line 230.
+(pdftex.def)             Requested size: 196.50536pt x 80.66634pt.
+[26 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cm_lgbm.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/boosting/cr_lgbm.png>]
+<image/model_evaluation/rf_svm/cm_rf_v2.png, id=406, 499.8675pt x 466.74374pt>
+File: image/model_evaluation/rf_svm/cm_rf_v2.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cm_rf_v2.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cm_rf_v2.png  used on input line 239.
+(pdftex.def)             Requested size: 245.63545pt x 229.35452pt.
+<image/model_evaluation/rf_svm/cr_rf_v2.png, id=407, 463.7325pt x 179.67125pt>
+File: image/model_evaluation/rf_svm/cr_rf_v2.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cr_rf_v2.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cr_rf_v2.png  used on input line 244.
+(pdftex.def)             Requested size: 196.50536pt x 76.13582pt.
+ [27 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cm_rf_v1.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cr_rf_v1.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cm_rf_v2.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cr_rf_v2.png>]
+<image/model_evaluation/rf_svm/cm_svm_v1.png, id=416, 421.575pt x 348.30125pt>
+File: image/model_evaluation/rf_svm/cm_svm_v1.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cm_svm_v1.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cm_svm_v1.png  used on input line 275.
+(pdftex.def)             Requested size: 245.63545pt x 202.94493pt.
+<image/model_evaluation/rf_svm/cr_svm_v1.png, id=417, 382.42876pt x 160.6pt>
+File: image/model_evaluation/rf_svm/cr_svm_v1.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cr_svm_v1.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cr_svm_v1.png  used on input line 280.
+(pdftex.def)             Requested size: 196.50536pt x 82.52245pt.
+<image/model_evaluation/rf_svm/cm_svm_v2.png, id=418, 449.68pt x 396.48125pt>
+File: image/model_evaluation/rf_svm/cm_svm_v2.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cm_svm_v2.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cm_svm_v2.png  used on input line 290.
+(pdftex.def)             Requested size: 245.63545pt x 216.5771pt.
+<image/model_evaluation/rf_svm/cr_svm_v2.png, id=419, 395.4775pt x 150.5625pt>
+File: image/model_evaluation/rf_svm/cr_svm_v2.png Graphic file (type png)
+<use image/model_evaluation/rf_svm/cr_svm_v2.png>
+Package pdftex.def Info: image/model_evaluation/rf_svm/cr_svm_v2.png  used on input line 295.
+(pdftex.def)             Requested size: 196.50536pt x 74.81238pt.
+) [28 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cm_svm_v1.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cr_svm_v1.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cm_svm_v2.png> </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/image/model_evaluation/rf_svm/cr_svm_v2.png>]
+\openout2 = `chapter/conclusion.aux'.
+
+ (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/conclusion.tex
+Chapter 6.
+) [29
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+ (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.aux (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/title.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/abstract.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/introduction.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/project_management.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/data_preprocessing.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/model.aux) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/chapter/conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5441B310F02882B924A8066788C2B5CE;1120.
+(rerunfilecheck)             Checksum: 7CB69361C82DB7B1ED9221BFF877C36B;1567.
  ) 
 Here is how much of TeX's memory you used:
- 18020 strings out of 481239
- 344064 string characters out of 5920377
- 598517 words of memory out of 5000000
- 32800 multiletter control sequences out of 15000+600000
- 537872 words of font info for 43 fonts, out of 8000000 for 9000
+ 19353 strings out of 481239
+ 371965 string characters out of 5920377
+ 619839 words of memory out of 5000000
+ 34053 multiletter control sequences out of 15000+600000
+ 538172 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,60p,1248b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (19 pages, 1091231 bytes).
+ 60i,9n,60p,1248b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Wine Quality Classification/Report/main.pdf" (29 pages, 1446201 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
